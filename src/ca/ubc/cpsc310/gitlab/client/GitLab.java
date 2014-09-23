@@ -50,6 +50,7 @@ public class GitLab implements EntryPoint {
 	public void onModuleLoad() 
 	{
 		
+<<<<<<< HEAD
 		service.getUsers(new AsyncCallback<List<IUser>>(){
 
 			@Override
@@ -67,6 +68,9 @@ public class GitLab implements EntryPoint {
 		System.out.println("Creating Conflict");
 	
 
+=======
+		// Removed code here.
+>>>>>>> origin/branch
 		
 	}
 	
